@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    ;
+}
+
+h1 {
+    text-align: center;
+    background-color: #9AE5ED;
+    color: black;
+    margin: 0%;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: block;
+    text-align: center;
+    background-color: #73D9B3;
+    padding: 10px;
+    margin: 0%;
+}
+
+nav ul li {
+    display: inline;
+    margin-inline: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #60D6AB;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+main {
+    padding-inline: 3rem;
+    background-color: #60D6AB;
+}
+
+.profile-pic {
+    width: 13rem;
+    height: 13rem;
+    background-color: #60D6AB;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 45px;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.info p {
+    line-height: 1;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+section p:hover {
+    background-color: lightblue;
+    transition: 0.5s;
+    cursor: default;
+}
+
+article {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #000;
+}
+
+.info {
+    list-style-type: none;
+}
+
+.info li {
+    display: block;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.head {
+    display: flex;
+}
+
+.article {
+    column-count: 2;
+    column-gap: 2rem;
+}
+
+h3 {
+    margin-block: 10px;
+}
+
+.list-hobbies {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ul li:hover {
+    cursor: pointer;
+    color: gold;
+    font-size: 2rem;
+}
+
+
+
+figure {
+    display: flex;
+}
+
+figure img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 15vw;
+}
+
+figure figcaption {
+    text-align: justify;
+}
+
+figcaption:hover {
+    background-color: lightblue;
+    transition: 0.5s;
+    cursor: default;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #9AE5ED;
+}
